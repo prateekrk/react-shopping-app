@@ -1,0 +1,15 @@
+#order-card{
+    margin: 1rem;
+    height: max-content;
+    display: inline-flex;
+    border:none;
+}
+#order-card-view-order-details-button{
+    float:inline-end;
+    text-align: center;
+    bottom: 0;
+    position: absolute;    
+}
+#order-card-view-order-details-button{
+    background-color:#7e57c2;
+}

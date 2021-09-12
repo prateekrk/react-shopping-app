@@ -1,0 +1,31 @@
+.Account{
+    text-align: left;
+}
+#account-logout{
+    width: fit-content;
+    background-color: #8c0032;
+    border:none;
+}
+.account{
+    padding: 1rem;
+    width:100%;
+}
+#account-user-card{
+    text-align: center;
+    width:100%;
+    display: inline-block;
+    
+    border: none;
+}
+#account-user-card-image{
+
+    width: min-content;
+    flex: 1;
+}
+#account-card-content{
+    flex:1
+}
+#account-your-order-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

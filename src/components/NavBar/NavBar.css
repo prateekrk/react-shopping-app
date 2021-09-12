@@ -1,0 +1,62 @@
+#nav-bar{
+    align-self: center;
+    align-items: center;
+    width:100%;    
+}
+#nav-bar-company-name{
+    font-size: 26px;
+    font-weight: 600;
+}
+#nav-bar-menu {
+    padding: 10px 20px;
+    background-color: #ab47bc;
+    border: none;
+    color: white;
+}
+
+#nav-bar-menu:hover {
+    background-color: #790e8b;
+}   
+.form-inline{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.form-inline input {
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width:55vw;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.id{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Style the submit button */
+#nav-bar-form-search-button {
+    padding: 10px 20px;
+    width: max-content;
+    background-color: #ab47bc;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+#nav-bar-form-search-button:hover {
+    background-color: #790e8b;
+}
+
+li{
+    margin-left:4px ;
+    margin-right: 4px;
+}
+i{
+    color:#ab47bc
+}
+i:hover{
+   color:#790e8b
+}
+

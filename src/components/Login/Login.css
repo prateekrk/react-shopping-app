@@ -1,0 +1,100 @@
+body{
+  background: #e9e9e9;
+}
+#login-company-name{
+    font-size: 60px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    align-self:center;
+    margin: 0px auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+ #btnContainer button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: #ab47bc;
+    cursor: pointer;
+  }
+  #btnContainer button:hover{
+    background-color: #790e8b;
+  }
+  #login {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    margin:0;
+    background: #e9e9e9;
+    display: flex;
+  }
+  
+  #login #loginContainer {
+    float: right;
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  label {
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background: rgba(126, 49, 49, 0.1);
+    letter-spacing: 1px;
+  }
+  
+  #login #loginContainer #btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  #login #loginContainer #btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+  }
+  
+  #login #loginContainer #btnContainer p span {
+    color: #ab47bc;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  #login #loginContainer #btnContainer p span:hover {
+    color: #790e8b;
+  }
+  
+  #login #loginContainer #errorMsg {
+    color: red;
+    font-size: 16px;
+  }
+  
+  #login #loginContainer #btnContainer #input{
+    background: rgba(126, 49, 49, 0.1);
+
+  }
+ 
